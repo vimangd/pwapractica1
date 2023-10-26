@@ -4,40 +4,130 @@
     font-family: "Overpass Mono", monospace;
 }
 body {
-    background-color: #4FB8BA;
+    background-color: #fff;
     color: #36495B;
     padding: 0;
     margin: 0;
 }
 h1{
     color: #36495B;
+    font-size: 40px;;
     margin: 0 0 0 8px;
     padding: 10px;
 }
 h2{
-    color: #4FB8BA;
+    color: #fff;
     margin: 0 0 0 8px;
     padding: 20px;
 }
-.box {
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0 40px;
+    width: 60vh;
+    text-align: justify;
+}
+.box{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    height: 100vh;
 }
 .topbot {
     background-color: #36495B;
-    color: #4FB8BA;
-    height: 70px;
-    min-width: 100%;
+    color: #fff;
+    height: 10vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .principal{
     background-color: #4FB8BA;
-    height: 860px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton_content{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    background-color: #36495B;
+    color: #fff;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;   
+    max-height: 20px; 
+}
+.principal_e1{
+    background-color: #fff;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fil1 {
+    background-color: #36495B;
+    display: flex;
+    flex-direction: row;
+    height:max-content;
 }
 #foto {
-    padding: 50px;
-    width: 200px;
-    width: 200px;
+    margin: 30px 30px 30px 30px;
+    height: 250px;
+}
+.resumen {
+    background-color: #4FB8BA;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fil2 {
+    background-color: #36495B;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+.contacto {
+    background-color: #4FB8BA;
+    color: #36495B;
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul{
+    margin-left: 30px;
+}
+.content_box{
+    color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fil3 {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    margin: 10px;
+    justify-content: center;
 }

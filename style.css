@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Overpass Mono", monospace;
+}
+body {
+    background-color: #4FB8BA;
+    color: #36495B;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #36495B;
+    margin: 0 0 0 8px;
+    padding: 10px;
+}
+h2{
+    color: #4FB8BA;
+    margin: 0 0 0 8px;
+    padding: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.topbot {
+    background-color: #36495B;
+    color: #4FB8BA;
+    height: 70px;
+    min-width: 100%;
+    display: flex;
+}
+.principal{
+    background-color: #4FB8BA;
+    height: 860px;
+}
+#foto {
+    padding: 50px;
+    width: 200px;
+    width: 200px;
+}
